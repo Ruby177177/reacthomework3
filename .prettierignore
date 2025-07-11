@@ -1,0 +1,6 @@
+# Ignore specific files
+src/App.jsx
+
+# Or ignore specific patterns
+# *.jsx
+# src/**/*.jsx 

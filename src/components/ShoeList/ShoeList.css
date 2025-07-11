@@ -1,0 +1,90 @@
+.shoe-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.shoe-list h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.shoes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.shoe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.shoe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.shoe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.shoe-info {
+  padding: 1rem;
+}
+
+.shoe-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.shoe-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e44d26;
+  margin: 0.5rem 0;
+}
+
+.shoe-description {
+  color: #666;
+  margin: 0.5rem 0 1rem 0;
+  line-height: 1.4;
+}
+
+.shoe-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-detail {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-detail:hover {
+  background-color: #0056b3;
+}
+
+.btn-add-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-add-cart:hover {
+  background-color: #1e7e34;
+} 

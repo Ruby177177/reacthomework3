@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.cart-summary {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.cart-summary h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.cart-summary p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
